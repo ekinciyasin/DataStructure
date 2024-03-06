@@ -1,5 +1,9 @@
 package SortAlgorithms;
-//timeComplexity of Bubble sort is O of N squared, it is quadratic. The least efficient algorithms.
+/**
+* timeComplexity of Bubble sort is O of N squared, it is quadratic.
+* a stable sort algorithm
+* The least efficient algorithms.
+ **/
 public class BubbleSort {
 
     public static void main(String[] args) {
