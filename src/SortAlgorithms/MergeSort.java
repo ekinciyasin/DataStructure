@@ -1,5 +1,8 @@
 package SortAlgorithms;
 /**
+ * Divide and conquer algorithm
+ * Recursive algorithm
+ * Two phases Splitting and Merging
  * In-place algorithm
  * Difficult to nail down the time complexity because it will depend on the gap. Worst case: O(n2) time complexity- quadratic but it can perform much better than that.
  * Doesn't require as much shifting as insertion sort, so it usually performs better.
@@ -11,6 +14,7 @@ public class MergeSort {
         int[] intArray= {20, 35, -15, 7, 55, 1, -22};
 
 
+        mergeSort(intArray, 0, intArray.length);
 
         for(int i = 0; i< intArray.length;i++){
             System.out.println(intArray[i]);
